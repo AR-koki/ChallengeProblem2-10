@@ -47,7 +47,7 @@ header {
 	background-position: bottom;
 }
 .content-box:last-child {
-	margin-right: none;
+	margin-right: 0;
 }
 .step {
 	background-color: #ff9a4b;
@@ -83,7 +83,10 @@ footer {
 	.step {
 		font-size: 90%;
 	}
-	.content-box {
+	.content-box:nth-child(1) {
+		margin-bottom: 20px;
+	}
+	.content-box:nth-child(2) {
 		margin-bottom: 20px;
 	}
 	section {
